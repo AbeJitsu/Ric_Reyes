@@ -2,7 +2,6 @@
 export const NAV_ITEMS = [
   { label: 'About Us', href: '/about' },
   { label: 'Services', href: '/services' },
-  { label: 'Track', href: '/tracking' },
   { label: 'News', href: '/news' },
   { label: 'Contact Us', href: '/contact' },
 ]
