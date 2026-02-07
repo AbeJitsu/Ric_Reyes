@@ -9,25 +9,37 @@ const SERVICES = [
     title: 'International Courier',
     description: 'Fast, reliable shipping to 220+ countries with competitive rates and full tracking.',
     icon: Globe,
+    color: 'from-blue-500 to-blue-600',
+    bgColor: 'bg-blue-50',
+    borderColor: 'border-blue-200',
+    accentColor: 'text-blue-600',
   },
   {
     title: 'Domestic Express',
     description: 'Next-day delivery across the nation with flexible pickup and delivery options.',
     icon: Truck,
+    color: 'from-emerald-500 to-emerald-600',
+    bgColor: 'bg-emerald-50',
+    borderColor: 'border-emerald-200',
+    accentColor: 'text-emerald-600',
   },
   {
     title: 'Specialized Solutions',
     description: 'Air freight, warehousing, facilities management, and custom logistics solutions.',
     icon: Package,
+    color: 'from-orange-500 to-orange-600',
+    bgColor: 'bg-orange-50',
+    borderColor: 'border-orange-200',
+    accentColor: 'text-orange-600',
   },
 ]
 
 export function Services() {
   return (
-    <Section className="bg-gradient-to-b from-white to-blue-50" id="services">
+    <Section className="bg-white" id="services">
       <Container>
         <div className="text-center mb-12">
-          <h2 className="text-4xl sm:text-5xl font-bold bg-gradient-to-r from-blue-900 to-blue-600 bg-clip-text text-transparent mb-4">Our Services</h2>
+          <h2 className="text-4xl sm:text-5xl font-bold text-navy-900 mb-4">Our Services</h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Comprehensive logistics solutions tailored to your shipping needs
           </p>
@@ -37,13 +49,13 @@ export function Services() {
           {SERVICES.map((service, index) => {
             const Icon = service.icon
             return (
-              <Card key={index} className="flex flex-col bg-white hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-blue-100">
-                <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-gradient-to-br from-blue-400 to-blue-600">
-                  <Icon className="text-white" size={24} />
+              <Card key={index} className={`flex flex-col ${service.bgColor} hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border ${service.borderColor}`}>
+                <div className={`mb-4 inline-flex h-14 w-14 items-center justify-center rounded-lg bg-gradient-to-br ${service.color}`}>
+                  <Icon className="text-white" size={28} />
                 </div>
                 <h3 className="text-xl font-semibold text-navy-900 mb-2">{service.title}</h3>
                 <p className="text-gray-600 mb-6 flex-grow">{service.description}</p>
-                <Button href="#" variant="outline" size="sm">
+                <Button href="/services" variant="outline" size="sm">
                   Learn More
                 </Button>
               </Card>
@@ -52,7 +64,7 @@ export function Services() {
         </div>
 
         <div className="text-center mt-12">
-          <Button href="#" size="lg">
+          <Button href="/services" size="lg">
             Explore All Services
           </Button>
         </div>
