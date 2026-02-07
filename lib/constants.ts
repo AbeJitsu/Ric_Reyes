@@ -1,11 +1,10 @@
 // Site navigation
 export const NAV_ITEMS = [
-  { label: 'Services', href: '#services' },
-  { label: 'Tracking', href: '/tracking' },
-  { label: 'Get Quote', href: '/quote' },
-  { label: 'About', href: '/about' },
-  { label: 'Resources', href: '/resources' },
-  { label: 'Contact', href: '/contact' },
+  { label: 'About Us', href: '/about' },
+  { label: 'Services', href: '/services' },
+  { label: 'Track', href: '/tracking' },
+  { label: 'News', href: '/news' },
+  { label: 'Contact Us', href: '/contact' },
 ]
 
 // Services

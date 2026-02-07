@@ -34,10 +34,7 @@ export function Header() {
         {/* CTA Buttons - Desktop */}
         <div className="hidden gap-3 sm:flex">
           <Button href="/tracking" variant="outline" size="sm">
-            Track
-          </Button>
-          <Button href="/quote" size="sm">
-            Get Quote
+            Track Package
           </Button>
         </div>
 
@@ -68,9 +65,6 @@ export function Header() {
             <div className="border-t border-gray-200 pt-4 space-y-2">
               <Button href="/tracking" variant="outline" className="w-full">
                 Track Package
-              </Button>
-              <Button href="/quote" className="w-full">
-                Get Quote
               </Button>
             </div>
           </Container>
