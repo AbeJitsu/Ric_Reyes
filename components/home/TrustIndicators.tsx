@@ -45,7 +45,7 @@ export function TrustIndicators() {
                   <Icon className="text-white" size={32} />
                 </div>
                 <p className="text-3xl sm:text-4xl font-bold text-white mb-2">{indicator.metric}</p>
-                <p className="text-gray-700 font-medium">{indicator.label}</p>
+                <p className="text-white font-medium">{indicator.label}</p>
               </div>
             )
           })}

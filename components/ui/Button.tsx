@@ -27,8 +27,8 @@ export function Button({
 
   const variantClasses = {
     primary: 'bg-gradient-primary text-white hover:shadow-lg active:shadow-md hover:scale-105 active:scale-100',
-    secondary: 'bg-gradient-to-r from-blue-100 to-blue-50 text-blue-900 hover:shadow-md active:shadow-sm hover:scale-105 active:scale-100',
-    outline: 'border-2 border-gradient-to-r from-blue-500 to-blue-600 text-primary-600 bg-gradient-blue-light hover:shadow-md active:shadow-sm hover:scale-105 active:scale-100',
+    secondary: 'bg-blue-200 text-blue-950 hover:bg-blue-300 hover:shadow-md active:shadow-sm hover:scale-105 active:scale-100',
+    outline: 'border-2 border-blue-600 text-blue-900 bg-white hover:bg-blue-50 hover:shadow-md active:shadow-sm hover:scale-105 active:scale-100',
   }
 
   const sizeClasses = {

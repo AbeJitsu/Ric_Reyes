@@ -15,7 +15,7 @@ export function Header() {
       <Container className="flex items-center justify-between py-4">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
-          <div className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent">ITSX</div>
+          <div className="text-2xl font-bold text-blue-600">ITSX</div>
         </Link>
 
         {/* Desktop Navigation */}
