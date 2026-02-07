@@ -48,11 +48,11 @@ export default function AboutPage() {
                   <p className="text-sm text-gray-600">Years Operating</p>
                 </div>
                 <div>
-                  <p className="text-3xl font-bold text-emerald-600">100K+</p>
+                  <p className="text-3xl font-bold text-slate-600">100K+</p>
                   <p className="text-sm text-gray-600">Successful Shipments</p>
                 </div>
                 <div>
-                  <p className="text-3xl font-bold text-orange-600">220+</p>
+                  <p className="text-3xl font-bold text-gray-700">220+</p>
                   <p className="text-sm text-gray-600">Countries Served</p>
                 </div>
               </div>
@@ -60,8 +60,8 @@ export default function AboutPage() {
 
             <div className="bg-blue-50 rounded-2xl border border-blue-200 p-8 h-full flex flex-col justify-center">
               <div className="inline-flex items-center gap-2 mb-4">
-                <div className="h-2 w-2 bg-emerald-600 rounded-full" />
-                <span className="text-sm font-semibold text-emerald-600 uppercase">Our Mission</span>
+                <div className="h-2 w-2 bg-gray-600 rounded-full" />
+                <span className="text-sm font-semibold text-gray-600 uppercase">Our Mission</span>
               </div>
               <h3 className="text-2xl font-bold text-navy-900 mb-6">Committed to Excellence</h3>
               <p className="text-gray-700 mb-6">
@@ -101,13 +101,13 @@ export default function AboutPage() {
                 icon: Globe,
                 title: 'Transparency',
                 desc: 'Real-time tracking and clear pricing. No hidden fees, no surprises—just honest service.',
-                color: 'from-emerald-500 to-emerald-600',
+                color: 'from-slate-500 to-slate-600',
               },
               {
                 icon: Heart,
                 title: 'Excellence',
                 desc: 'Quality service in every interaction. We treat your packages like our own.',
-                color: 'from-orange-500 to-orange-600',
+                color: 'from-gray-600 to-gray-700',
               },
             ].map((value) => {
               const Icon = value.icon

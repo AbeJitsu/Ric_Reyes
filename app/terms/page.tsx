@@ -27,11 +27,11 @@ export default function TermsPage() {
       <Section className="bg-white py-16 sm:py-20">
         <Container>
           <div className="flex items-center gap-4 mb-6">
-            <div className="h-14 w-14 rounded-lg bg-orange-100 flex items-center justify-center">
-              <AlertCircle className="text-orange-600" size={28} />
+            <div className="h-14 w-14 rounded-lg bg-gray-200 flex items-center justify-center">
+              <AlertCircle className="text-gray-700" size={28} />
             </div>
             <div>
-              <p className="text-sm font-semibold text-orange-600 uppercase">Legal Agreement</p>
+              <p className="text-sm font-semibold text-gray-700 uppercase">Legal Agreement</p>
               <h1 className="text-5xl sm:text-6xl font-bold text-navy-900">Terms of Service</h1>
             </div>
           </div>
@@ -210,7 +210,7 @@ export default function TermsPage() {
                     If you have questions about these Terms of Service, please contact us:
                   </p>
 
-                  <div className="bg-orange-50 rounded-lg border border-orange-200 p-6">
+                  <div className="bg-gray-50 rounded-lg border border-gray-200 p-6">
                     <p className="text-gray-700 mb-3">
                       <span className="font-bold">Email:</span> info@its-xpress.com
                     </p>

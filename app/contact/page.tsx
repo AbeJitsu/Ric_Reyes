@@ -49,7 +49,7 @@ export default function ContactPage() {
 
             {/* Local Phone */}
             <div className="bg-white rounded-xl border border-gray-200 p-8 hover:shadow-lg transition">
-              <div className="h-12 w-12 rounded-lg bg-gradient-to-br from-emerald-500 to-emerald-600 flex items-center justify-center mb-4">
+              <div className="h-12 w-12 rounded-lg bg-gradient-to-br from-slate-500 to-slate-600 flex items-center justify-center mb-4">
                 <Phone className="text-white" size={24} />
               </div>
               <h3 className="text-xl font-bold text-navy-900 mb-2">Local</h3>
@@ -61,7 +61,7 @@ export default function ContactPage() {
 
             {/* Email */}
             <div className="bg-white rounded-xl border border-gray-200 p-8 hover:shadow-lg transition">
-              <div className="h-12 w-12 rounded-lg bg-gradient-to-br from-orange-500 to-orange-600 flex items-center justify-center mb-4">
+              <div className="h-12 w-12 rounded-lg bg-gradient-to-br from-gray-600 to-gray-700 flex items-center justify-center mb-4">
                 <Mail className="text-white" size={24} />
               </div>
               <h3 className="text-xl font-bold text-navy-900 mb-2">Email</h3>

@@ -36,32 +36,32 @@ export function Hero() {
             <p className="text-sm font-medium text-gray-700">Years Operating</p>
           </div>
 
-          <div className="bg-gradient-to-br from-emerald-50 to-emerald-100 rounded-xl p-6 border border-emerald-200 hover:shadow-lg transition-shadow">
+          <div className="bg-gradient-to-br from-slate-50 to-slate-100 rounded-xl p-6 border border-slate-200 hover:shadow-lg transition-shadow">
             <div className="flex items-center gap-3 mb-3">
-              <div className="h-10 w-10 rounded-lg bg-emerald-500 flex items-center justify-center">
+              <div className="h-10 w-10 rounded-lg bg-slate-500 flex items-center justify-center">
                 <Package className="text-white" size={20} />
               </div>
-              <p className="text-3xl sm:text-4xl font-bold text-emerald-600">100K+</p>
+              <p className="text-3xl sm:text-4xl font-bold text-slate-600">100K+</p>
             </div>
             <p className="text-sm font-medium text-gray-700">Deliveries</p>
           </div>
 
-          <div className="bg-gradient-to-br from-orange-50 to-orange-100 rounded-xl p-6 border border-orange-200 hover:shadow-lg transition-shadow">
+          <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-6 border border-gray-200 hover:shadow-lg transition-shadow">
             <div className="flex items-center gap-3 mb-3">
-              <div className="h-10 w-10 rounded-lg bg-orange-500 flex items-center justify-center">
+              <div className="h-10 w-10 rounded-lg bg-gray-600 flex items-center justify-center">
                 <Globe className="text-white" size={20} />
               </div>
-              <p className="text-3xl sm:text-4xl font-bold text-orange-600">220+</p>
+              <p className="text-3xl sm:text-4xl font-bold text-gray-700">220+</p>
             </div>
             <p className="text-sm font-medium text-gray-700">Countries Served</p>
           </div>
 
-          <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-xl p-6 border border-purple-200 hover:shadow-lg transition-shadow">
+          <div className="bg-gradient-to-br from-blue-100 to-blue-50 rounded-xl p-6 border border-blue-300 hover:shadow-lg transition-shadow">
             <div className="flex items-center gap-3 mb-3">
-              <div className="h-10 w-10 rounded-lg bg-purple-500 flex items-center justify-center">
+              <div className="h-10 w-10 rounded-lg bg-blue-600 flex items-center justify-center">
                 <Zap className="text-white" size={20} />
               </div>
-              <p className="text-3xl sm:text-4xl font-bold text-purple-600">99.2%</p>
+              <p className="text-3xl sm:text-4xl font-bold text-blue-700">99.2%</p>
             </div>
             <p className="text-sm font-medium text-gray-700">On-Time Rate</p>
           </div>

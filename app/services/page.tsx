@@ -35,9 +35,9 @@ const SERVICES = [
   {
     icon: Truck,
     title: 'Domestic Express',
-    color: 'from-emerald-500 to-emerald-600',
-    bgColor: 'bg-emerald-50',
-    borderColor: 'border-emerald-200',
+    color: 'from-slate-500 to-slate-600',
+    bgColor: 'bg-slate-50',
+    borderColor: 'border-slate-200',
     shortDesc: 'Next-day delivery nationwide',
     description: 'Next-day delivery across the nation for urgent shipments with flexible pickup and delivery options.',
     features: [
@@ -58,9 +58,9 @@ const SERVICES = [
   {
     icon: Package,
     title: 'Specialized Solutions',
-    color: 'from-orange-500 to-orange-600',
-    bgColor: 'bg-orange-50',
-    borderColor: 'border-orange-200',
+    color: 'from-gray-600 to-gray-700',
+    bgColor: 'bg-gray-50',
+    borderColor: 'border-gray-200',
     shortDesc: 'Custom logistics for every need',
     description: 'Air freight, warehousing, facilities management, and custom logistics solutions for enterprise clients.',
     features: [

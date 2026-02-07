@@ -20,7 +20,7 @@ const NEWS_ITEMS = [
   {
     date: 'February 2025',
     category: 'Expansion',
-    categoryColor: 'from-emerald-500 to-emerald-600',
+    categoryColor: 'from-slate-500 to-slate-600',
     title: 'Expanded Service to 50 New Countries',
     excerpt: 'We are excited to announce service expansion to 50 additional countries worldwide, bringing ITSX logistics to over 270 countries.',
     readTime: '3 min read',
@@ -28,7 +28,7 @@ const NEWS_ITEMS = [
   {
     date: 'January 2025',
     category: 'Milestone',
-    categoryColor: 'from-orange-500 to-orange-600',
+    categoryColor: 'from-gray-600 to-gray-700',
     title: '100,000 Shipments Milestone Reached',
     excerpt: 'ITSX celebrates the successful delivery of our 100,000th shipment. Thank you to our customers and team for making this possible.',
     readTime: '4 min read',
@@ -36,7 +36,7 @@ const NEWS_ITEMS = [
   {
     date: 'December 2024',
     category: 'Achievement',
-    categoryColor: 'from-purple-500 to-purple-600',
+    categoryColor: 'from-blue-600 to-blue-700',
     title: 'Holiday Season Success',
     excerpt: 'Record-breaking holiday season delivery rates with 99.5% on-time performance, surpassing our industry-leading standards.',
     readTime: '6 min read',
@@ -44,7 +44,7 @@ const NEWS_ITEMS = [
   {
     date: 'November 2024',
     category: 'Update',
-    categoryColor: 'from-pink-500 to-pink-600',
+    categoryColor: 'from-slate-600 to-slate-700',
     title: 'New Partnership Strengthens Global Network',
     excerpt: 'Strategic partnership announcement with leading logistics providers in Asia-Pacific region enhances our service capabilities.',
     readTime: '5 min read',
@@ -52,7 +52,7 @@ const NEWS_ITEMS = [
   {
     date: 'October 2024',
     category: 'Sustainability',
-    categoryColor: 'from-green-500 to-green-600',
+    categoryColor: 'from-gray-500 to-gray-600',
     title: 'Carbon-Neutral Shipping Initiative',
     excerpt: 'Launching our new eco-friendly shipping options allowing customers to offset carbon footprint on international deliveries.',
     readTime: '7 min read',
